@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+addopts="-l -v --durations=10"
+markers=[
+    "mobile: Маркируем тесты для мобильной версии",
+    "desktop: Маркируем тесты для десктопной версии",
+]
